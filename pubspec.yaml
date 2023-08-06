@@ -1,0 +1,41 @@
+name: guitar_network_vkr
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  firebase_auth: ^4.2.10
+  firebase_core: ^2.10.0
+  audioplayers: ^3.0.1
+  pitch_detector_dart: ^0.0.2
+  flutter_sound: ^9.2.13
+  flutter_audio_capture: ^1.1.4
+  cloud_firestore: ^4.5.1
+  image_picker: ^0.8.7+3
+  path_provider: ^2.0.14
+  firebase_storage: ^11.1.1
+  firebase_database: ^10.1.2
+  webview_flutter: ^4.2.0
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/images/
